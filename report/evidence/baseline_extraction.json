@@ -1,0 +1,724 @@
+[
+  {
+    "doc_id": "news-100260916224844654",
+    "cases": []
+  },
+  {
+    "doc_id": "news-100260917203001265",
+    "cases": [
+      {
+        "name": "Vụ vận chuyển ma túy từ Đức về Việt Nam",
+        "summary": "Cái Quang Huy bị cáo buộc hai lần vận chuyển ma túy về Việt Nam qua sân bay Nội Bài, với tổng khối lượng hơn 9,6kg MDMA và gần 406g Ketamine.",
+        "date": "2025-01-21",
+        "location": "Hà Nội",
+        "charges": [
+          "vận chuyển trái phép chất ma túy"
+        ],
+        "substances": [
+          {
+            "name": "MDMA",
+            "amount": "9.600kg"
+          },
+          {
+            "name": "Ketamine",
+            "amount": "406g"
+          }
+        ],
+        "people": [
+          {
+            "name": "Cái Quang Huy",
+            "aliases": [],
+            "role": "bị cáo",
+            "charge": "vận chuyển trái phép chất ma túy",
+            "sentence": ""
+          },
+          {
+            "name": "Nguyễn Tiến Đạt",
+            "aliases": [],
+            "role": "bị cáo",
+            "charge": "vận chuyển trái phép chất ma túy",
+            "sentence": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "news-100260918080821054",
+    "cases": [
+      {
+        "name": "Vụ góp tiền mua ma túy tại Hà Nội",
+        "summary": "Ba thanh niên góp tiền để Lê Minh Thành mua ma túy cho tiệc sinh nhật nhưng sau đó không tham gia. Tòa sơ thẩm tuyên phạt mỗi người 24 tháng tù về tội mua bán trái phép chất ma túy.",
+        "date": "2025-09-18",
+        "location": "Hà Nội",
+        "charges": [
+          "mua bán trái phép chất ma túy"
+        ],
+        "substances": [
+          {
+            "name": "MDMA",
+            "amount": "5 viên"
+          },
+          {
+            "name": "Ketamine",
+            "amount": "nửa chỉ"
+          }
+        ],
+        "people": [
+          {
+            "name": "Lê Minh Thành",
+            "aliases": [],
+            "role": "bị cáo",
+            "charge": "mua bán trái phép chất ma túy",
+            "sentence": "36 tháng tù"
+          },
+          {
+            "name": "Trịnh Vũ Kiên",
+            "aliases": [],
+            "role": "bị cáo",
+            "charge": "mua bán trái phép chất ma túy",
+            "sentence": "24 tháng tù"
+          },
+          {
+            "name": "Kim Xuân Tuấn",
+            "aliases": [],
+            "role": "bị cáo",
+            "charge": "mua bán trái phép chất ma túy",
+            "sentence": "24 tháng tù"
+          },
+          {
+            "name": "Nguyễn Quang Hưng",
+            "aliases": [],
+            "role": "bị cáo",
+            "charge": "mua bán trái phép chất ma túy",
+            "sentence": "24 tháng tù"
+          }
+        ]
+      },
+      {
+        "name": "Vụ vận chuyển ma túy của Cái Quang Huy",
+        "summary": "Cái Quang Huy bị cáo buộc hai lần vận chuyển ma túy về Việt Nam qua sân bay Nội Bài, tổng số ma túy gồm hơn 9,6kg MDMA và gần 406g Ketamine.",
+        "date": "",
+        "location": "",
+        "charges": [
+          "vận chuyển trái phép chất ma túy"
+        ],
+        "substances": [
+          {
+            "name": "MDMA",
+            "amount": "9,6kg"
+          },
+          {
+            "name": "Ketamine",
+            "amount": "406g"
+          }
+        ],
+        "people": [
+          {
+            "name": "Cái Quang Huy",
+            "aliases": [],
+            "role": "nghi phạm",
+            "charge": "vận chuyển trái phép chất ma túy",
+            "sentence": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "news-100260918220613301",
+    "cases": []
+  },
+  {
+    "doc_id": "news-100260920221957595",
+    "cases": [
+      {
+        "name": "Vụ bắt giang hồ 'Hoàng Nato' và 126 người liên quan 8 đường dây ma túy",
+        "summary": "Công an TP.HCM đã bắt giữ giang hồ 'Hoàng Nato' và 126 người liên quan đến 8 đường dây ma túy, trong đó có 9 người nước ngoài. Các nghi phạm bị cáo buộc tổ chức sử dụng trái phép chất ma túy.",
+        "date": "2023-09-21",
+        "location": "TP.HCM",
+        "charges": [
+          "mua bán trái phép chất ma túy",
+          "tàng trữ trái phép chất ma túy",
+          "tổ chức sử dụng trái phép chất ma túy"
+        ],
+        "substances": [
+          {
+            "name": "etomidate",
+            "amount": "không rõ"
+          },
+          {
+            "name": "ketamine",
+            "amount": "khoảng 100g"
+          },
+          {
+            "name": "thuốc lắc",
+            "amount": "không rõ"
+          },
+          {
+            "name": "ma túy tổng hợp",
+            "amount": "khoảng 100g"
+          }
+        ],
+        "people": [
+          {
+            "name": "Dương Minh Tuấn",
+            "aliases": [
+              "Hoàng Nato"
+            ],
+            "role": "bị cáo",
+            "charge": "tổ chức sử dụng trái phép chất ma túy",
+            "sentence": ""
+          },
+          {
+            "name": "Kim Yu Young",
+            "aliases": [],
+            "role": "bị can",
+            "charge": "mua bán trái phép chất ma túy",
+            "sentence": ""
+          },
+          {
+            "name": "Phạm Phương Anh",
+            "aliases": [],
+            "role": "bị can",
+            "charge": "mua bán trái phép chất ma túy",
+            "sentence": ""
+          },
+          {
+            "name": "Phạm Tài Vình",
+            "aliases": [],
+            "role": "bị can",
+            "charge": "mua bán trái phép chất ma túy",
+            "sentence": ""
+          },
+          {
+            "name": "Lê Đăng Khoa",
+            "aliases": [],
+            "role": "bị can",
+            "charge": "mua bán trái phép chất ma túy",
+            "sentence": ""
+          },
+          {
+            "name": "Giang Quốc Khánh",
+            "aliases": [],
+            "role": "bị can",
+            "charge": "mua bán trái phép chất ma túy",
+            "sentence": ""
+          },
+          {
+            "name": "Phạm Minh Sang",
+            "aliases": [],
+            "role": "bị can",
+            "charge": "mua bán trái phép chất ma túy",
+            "sentence": ""
+          },
+          {
+            "name": "Nguyễn Thành Quốc",
+            "aliases": [],
+            "role": "bị can",
+            "charge": "mua bán trái phép chất ma túy",
+            "sentence": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "news-100260922111804786",
+    "cases": [
+      {
+        "name": "Vụ tổ chức sử dụng trái phép chất ma túy liên quan đến TikToker Phannhibeauty",
+        "summary": "TikToker Phannhibeauty cùng 126 người khác bị bắt vì liên quan đến tổ chức sử dụng trái phép chất ma túy. Trong số đó có giang hồ 'Hoàng Nato'.",
+        "date": "2023-09-22",
+        "location": "TP.HCM",
+        "charges": [
+          "tổ chức sử dụng trái phép chất ma túy"
+        ],
+        "substances": [
+          {
+            "name": "etomidate",
+            "amount": "không rõ"
+          }
+        ],
+        "people": [
+          {
+            "name": "Phan Kim Nhi",
+            "aliases": [
+              "Phannhibeauty"
+            ],
+            "role": "bị cáo",
+            "charge": "tổ chức sử dụng trái phép chất ma túy",
+            "sentence": ""
+          },
+          {
+            "name": "Dương Minh Tuấn",
+            "aliases": [
+              "Hoàng Nato"
+            ],
+            "role": "bị cáo",
+            "charge": "tổ chức sử dụng trái phép chất ma túy",
+            "sentence": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "news-100260924095400982",
+    "cases": [
+      {
+        "name": "Vụ sử dụng ma túy etomidate của Hoàng Nato và Phan Kim Nhi",
+        "summary": "Hoàng Nato và TikToker Phannhibeauty khai nhận đã cùng nhau sử dụng ma túy etomidate ngụy trang trong thuốc lá điện tử. Cả hai bị bắt giữ sau khi tổ chức sử dụng ma túy.",
+        "date": "2023-09-12",
+        "location": "TP.HCM",
+        "charges": [
+          "tổ chức sử dụng trái phép chất ma túy"
+        ],
+        "substances": [
+          {
+            "name": "etomidate",
+            "amount": "không rõ"
+          }
+        ],
+        "people": [
+          {
+            "name": "Dương Minh Tuấn",
+            "aliases": [
+              "Hoàng Nato"
+            ],
+            "role": "bị cáo",
+            "charge": "tổ chức sử dụng trái phép chất ma túy",
+            "sentence": "chuỗi rỗng"
+          },
+          {
+            "name": "Phan Kim Nhi",
+            "aliases": [
+              "TikToker Phannhibeauty"
+            ],
+            "role": "bị cáo",
+            "charge": "tổ chức sử dụng trái phép chất ma túy",
+            "sentence": "chuỗi rỗng"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "news-100260924101703641",
+    "cases": [
+      {
+        "name": "Vụ bắt giữ giang hồ mạng 'Đức Cộng'",
+        "summary": "Nguyễn Minh Đức, biệt danh 'Đức Cộng', đã bị bắt giữ về hành vi tổ chức sử dụng trái phép chất ma túy. Đức có 8 tiền án và 1 tiền sự trước khi bị bắt.",
+        "date": "2023-09-16",
+        "location": "Ninh Bình",
+        "charges": [
+          "tổ chức sử dụng trái phép chất ma túy"
+        ],
+        "substances": [],
+        "people": [
+          {
+            "name": "Nguyễn Minh Đức",
+            "aliases": [
+              "Đức Cộng"
+            ],
+            "role": "bị cáo",
+            "charge": "tổ chức sử dụng trái phép chất ma túy",
+            "sentence": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "news-100260924105118645",
+    "cases": [
+      {
+        "name": "Vụ án tại Viện Pháp y tâm thần Trung ương",
+        "summary": "Vụ án liên quan đến việc thao túng và nhận hối lộ tại Viện Pháp y tâm thần Trung ương, trong đó nhiều bác sĩ và nhân viên y tế bị cáo buộc nhận tiền để làm ngơ cho các bị can ma túy ra ngoài và 'chạy' giám định tâm thần.",
+        "date": "2023-09-28",
+        "location": "Hà Nội",
+        "charges": [
+          "mua bán trái phép chất ma túy",
+          "tổ chức sử dụng trái phép chất ma túy"
+        ],
+        "substances": [
+          {
+            "name": "MDMA",
+            "amount": ""
+          },
+          {
+            "name": "Ketamine",
+            "amount": ""
+          },
+          {
+            "name": "Methamphetamine",
+            "amount": ""
+          },
+          {
+            "name": "cần sa",
+            "amount": ""
+          }
+        ],
+        "people": [
+          {
+            "name": "Nguyễn Thị Mai Anh",
+            "aliases": [
+              "bà 'trùm'"
+            ],
+            "role": "bị cáo",
+            "charge": "tổ chức sử dụng trái phép chất ma túy",
+            "sentence": ""
+          },
+          {
+            "name": "Lê Văn Đông",
+            "aliases": [],
+            "role": "bị cáo",
+            "charge": "tổ chức sử dụng trái phép chất ma túy",
+            "sentence": ""
+          },
+          {
+            "name": "Trần Văn Trường",
+            "aliases": [
+              "cựu viện trưởng"
+            ],
+            "role": "người liên quan",
+            "charge": "",
+            "sentence": ""
+          },
+          {
+            "name": "Ngô Văn Vinh",
+            "aliases": [
+              "cựu viện trưởng"
+            ],
+            "role": "người liên quan",
+            "charge": "",
+            "sentence": ""
+          },
+          {
+            "name": "Bùi Thị Thanh Thủy",
+            "aliases": [],
+            "role": "bị cáo",
+            "charge": "mua bán trái phép chất ma túy",
+            "sentence": ""
+          },
+          {
+            "name": "DJ Thái Hoàng",
+            "aliases": [],
+            "role": "bị cáo",
+            "charge": "mua bán trái phép chất ma túy",
+            "sentence": ""
+          },
+          {
+            "name": "Nguyễn Văn Quang",
+            "aliases": [],
+            "role": "bị cáo",
+            "charge": "",
+            "sentence": ""
+          },
+          {
+            "name": "Nguyễn Thị Thu Hoài",
+            "aliases": [],
+            "role": "bị cáo",
+            "charge": "",
+            "sentence": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "news-100260924145818945",
+    "cases": [
+      {
+        "name": "Vụ vận chuyển 840kg ma túy đá tại Campuchia",
+        "summary": "Giới chức Campuchia đã bắt giữ 7 công dân Trung Quốc và thu giữ hơn 800kg chất nghi là ma túy đá trong một chiến dịch quy mô lớn.",
+        "date": "2023-09-23",
+        "location": "Preah Sihanouk",
+        "charges": [
+          "vận chuyển trái phép chất ma túy"
+        ],
+        "substances": [
+          {
+            "name": "Methamphetamine",
+            "amount": "840kg"
+          }
+        ],
+        "people": [
+          {
+            "name": "7 công dân Trung Quốc",
+            "aliases": [],
+            "role": "bị cáo",
+            "charge": "vận chuyển trái phép chất ma túy",
+            "sentence": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "news-100260924184319083",
+    "cases": []
+  },
+  {
+    "doc_id": "news-100260925144412498",
+    "cases": [
+      {
+        "name": "Vụ triệt phá 8 đường dây ma túy tại TP.HCM",
+        "summary": "Công an TP.HCM đã triệt phá 8 đường dây ma túy và bắt giữ 126 người liên quan đến các hành vi mua bán, tàng trữ, tổ chức sử dụng và sử dụng trái phép chất ma túy, trong đó có 'Hoàng Nato' và bạn gái Phan Kim Nhi.",
+        "date": "2023-09-19",
+        "location": "TP.HCM",
+        "charges": [
+          "mua bán trái phép chất ma túy",
+          "tổ chức sử dụng trái phép chất ma túy"
+        ],
+        "substances": [
+          {
+            "name": "etomidate",
+            "amount": "hơn 1.000 đầu pod chill chứa etomidate"
+          }
+        ],
+        "people": [
+          {
+            "name": "Dương Minh Tuấn",
+            "aliases": [
+              "Hoàng Nato"
+            ],
+            "role": "bị cáo",
+            "charge": "tổ chức sử dụng trái phép chất ma túy",
+            "sentence": ""
+          },
+          {
+            "name": "Phan Kim Nhi",
+            "aliases": [
+              "TikToker Phannhibeauty"
+            ],
+            "role": "bị cáo",
+            "charge": "tổ chức sử dụng trái phép chất ma túy",
+            "sentence": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "news-100260926112415229",
+    "cases": [
+      {
+        "name": "Vụ tông cảnh sát giao thông ở An Giang",
+        "summary": "Nguyễn Minh Nhân đã tông vào Thiếu tá Trần Ngọc Nam trong khi chạy xe không có giấy phép lái xe và sử dụng rượu, ma túy.",
+        "date": "2023-09-10",
+        "location": "An Giang",
+        "charges": [],
+        "substances": [
+          {
+            "name": "ma túy",
+            "amount": ""
+          }
+        ],
+        "people": [
+          {
+            "name": "Nguyễn Minh Nhân",
+            "aliases": [],
+            "role": "bị can",
+            "charge": "",
+            "sentence": ""
+          },
+          {
+            "name": "Trần Ngọc Nam",
+            "aliases": [],
+            "role": "cán bộ",
+            "charge": "",
+            "sentence": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "news-100260927182621527",
+    "cases": [
+      {
+        "name": "Vụ phát hiện 20kg ma túy tại Phú Quốc",
+        "summary": "Lực lượng biên phòng phát hiện một bao tải nghi chứa 20kg ma túy trôi dạt vào bờ biển Phú Quốc. Kiện hàng được kiểm tra và xác định có chứa nhiều tinh thể rắn màu trắng nghi là chất ma túy.",
+        "date": "2023-09-27",
+        "location": "Phú Quốc, An Giang",
+        "charges": [
+          "vận chuyển trái phép chất ma túy"
+        ],
+        "substances": [
+          {
+            "name": "chất ma túy",
+            "amount": "20kg"
+          }
+        ],
+        "people": []
+      }
+    ]
+  },
+  {
+    "doc_id": "news-100260928003224009",
+    "cases": []
+  },
+  {
+    "doc_id": "news-100260928111813276",
+    "cases": []
+  },
+  {
+    "doc_id": "news-100260928173914514",
+    "cases": [
+      {
+        "name": "Vụ mua bán hơn 36kg ma túy tại TP.HCM",
+        "summary": "Hai bị cáo Trần Thanh Tuấn và Trần Minh Tâm bị tuyên án tử hình về tội mua bán trái phép chất ma túy. Bốn bị cáo khác nhận án tù từ 2 năm 6 tháng đến 8 năm 6 tháng.",
+        "date": "2025-04-04",
+        "location": "TP.HCM",
+        "charges": [
+          "mua bán trái phép chất ma túy",
+          "tổ chức sử dụng trái phép chất ma túy"
+        ],
+        "substances": [
+          {
+            "name": "ma túy",
+            "amount": "36kg"
+          }
+        ],
+        "people": [
+          {
+            "name": "Trần Thanh Tuấn",
+            "aliases": [],
+            "role": "bị cáo",
+            "charge": "mua bán trái phép chất ma túy",
+            "sentence": "tử hình"
+          },
+          {
+            "name": "Trần Minh Tâm",
+            "aliases": [],
+            "role": "bị cáo",
+            "charge": "mua bán trái phép chất ma túy",
+            "sentence": "tử hình"
+          },
+          {
+            "name": "Đỗ Thị Ngọc Yến",
+            "aliases": [],
+            "role": "bị cáo",
+            "charge": "mua bán trái phép chất ma túy",
+            "sentence": "8 năm 6 tháng tù"
+          },
+          {
+            "name": "Võ Nữ Minh Thư",
+            "aliases": [],
+            "role": "bị cáo",
+            "charge": "mua bán trái phép chất ma túy",
+            "sentence": "8 năm tù"
+          },
+          {
+            "name": "Đinh Đức Tuấn",
+            "aliases": [],
+            "role": "bị cáo",
+            "charge": "tổ chức sử dụng trái phép chất ma túy",
+            "sentence": "2 năm 6 tháng tù"
+          },
+          {
+            "name": "Trần Ngọc Thảo",
+            "aliases": [],
+            "role": "bị cáo",
+            "charge": "tổ chức sử dụng trái phép chất ma túy",
+            "sentence": "2 năm 6 tháng tù"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "news-100260929130300513",
+    "cases": []
+  },
+  {
+    "doc_id": "news-100260930085028036",
+    "cases": [
+      {
+        "name": "Vụ tổ chức sử dụng ma túy tại Sầm Sơn",
+        "summary": "Lê Văn Đông, trong thời gian chữa bệnh bắt buộc, đã tổ chức sử dụng ma túy trên bãi biển Sầm Sơn cùng với một số người khác. Đông bị cáo buộc đã trốn viện để thực hiện hành vi này.",
+        "date": "2025-06-06",
+        "location": "Thanh Hóa",
+        "charges": [
+          "tàng trữ trái phép chất ma túy",
+          "tổ chức sử dụng trái phép chất ma túy"
+        ],
+        "substances": [
+          {
+            "name": "MDMA",
+            "amount": "0,686g"
+          },
+          {
+            "name": "methamphetamine",
+            "amount": "không rõ"
+          },
+          {
+            "name": "cần sa",
+            "amount": "không rõ"
+          }
+        ],
+        "people": [
+          {
+            "name": "Lê Văn Đông",
+            "aliases": [],
+            "role": "bị cáo",
+            "charge": "tổ chức sử dụng trái phép chất ma túy",
+            "sentence": "không rõ"
+          },
+          {
+            "name": "Nguyễn Thị Mai Anh",
+            "aliases": [
+              "bà trùm"
+            ],
+            "role": "bị cáo",
+            "charge": "",
+            "sentence": "không rõ"
+          },
+          {
+            "name": "Ngô Việt Dũng",
+            "aliases": [],
+            "role": "người liên quan",
+            "charge": "",
+            "sentence": "không rõ"
+          },
+          {
+            "name": "Cao Thị Bích Hằng",
+            "aliases": [],
+            "role": "người liên quan",
+            "charge": "",
+            "sentence": "không rõ"
+          },
+          {
+            "name": "Trần Quốc An",
+            "aliases": [],
+            "role": "người liên quan",
+            "charge": "",
+            "sentence": "không rõ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "news-100261002184934505",
+    "cases": [
+      {
+        "name": "Chuyên án A3-626P",
+        "summary": "Bộ đội Biên phòng đã triệt phá chuyên án A3-626P, bắt giữ 2 đối tượng và thu giữ 40kg ma túy.",
+        "date": "2026-10-02",
+        "location": "TP.HCM",
+        "charges": [
+          "mua bán trái phép chất ma túy"
+        ],
+        "substances": [
+          {
+            "name": "ma túy",
+            "amount": "40kg"
+          }
+        ],
+        "people": []
+      }
+    ]
+  }
+]

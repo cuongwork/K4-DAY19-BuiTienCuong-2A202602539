@@ -1,0 +1,10 @@
+Command: .\.venv\Scripts\python.exe -X utf8 -B bench_kg.py --check
+Captured official stdout, 05-10-2026:
+[OK] Dữ liệu: 18 điều luật, 20 bài báo
+[OK] KG-1 link_entity
+[OK] Neo4j kết nối được
+[provider] chat = openai:gpt-4o-mini | embedding = openai:text-embedding-3-small
+[OK] KG-2 build_graph: 152 node / 306 cạnh, đường xuyên 2 KB dài 2 cạnh
+[OK] KG-3 context: 7 dữ kiện, có Điều 251
+[OK] KG-4 GraphRAGAgent.answer
+[OK] Chi phí check: 2 lần gọi LLM, $0.00183. Graph nhỏ (luật + 1 bài) vẫn còn trong Neo4j để bạn xem; chạy --judge để dựng graph đầy đủ.

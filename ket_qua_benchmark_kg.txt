@@ -1,0 +1,51 @@
+Chat model: openai:gpt-4o-mini | Embedding: openai:text-embedding-3-small | top_k=3 | chunk_size=800 | chunks=176 | KG: 282 nodes / 519 rels
+
+== Indexing (one-off)
+pipeline  calls    in_tok  out_tok       USD  seconds
+flat        176     56072        0   0.00112     40.0
+graph       198    107994    10476   0.01520    147.0
+
+== Querying (mean per question)
+pipeline  recall  judge   in_tok  out_tok       USD  seconds
+flat        0.43   1.00      694       47   0.00013     1.31
+graph       1.00   2.00     2413      111   0.00042     2.67
+
+== Per question
+--- Q1 [single-hop-law] flat recall=1.00 judge=2 1.23s
+Tiền chất là hóa chất không thể thiếu được trong quá trình điều chế, sản xuất chất ma túy được quy định trong danh mục tiền chất do Chính phủ ban hành.
+--- Q1 [single-hop-law] graph recall=1.00 judge=2 2.92s
+Theo Luật Phòng, chống ma túy 2021, tiền chất là hóa chất không thể thiếu được trong quá trình điều chế, sản xuất chất ma túy được quy định trong danh mục tiền chất do Chính phủ ban hành (Điều 2, khoản 4, [pcmt-dieu-2]).
+--- Q2 [single-hop-news] flat recall=1.00 judge=2 1.40s
+Trần Thanh Tuấn (25 tuổi) và Trần Minh Tâm (32 tuổi) lãnh án tử hình trong vụ đường dây mua bán hơn 36kg ma túy.
+--- Q2 [single-hop-news] graph recall=1.00 judge=2 2.13s
+Trong vụ đường dây mua bán hơn 36kg ma túy bị TAND TP.HCM xét xử ngày 28-9, những bị cáo lãnh án tử hình là Trần Thanh Tuấn (25 tuổi) và Trần Minh Tâm (32 tuổi) (nguồn: [news-100260928173914514]).
+--- Q3 [cross-kb] flat recall=0.00 judge=0 0.85s
+Không đủ thông tin.
+--- Q3 [cross-kb] graph recall=1.00 judge=2 2.21s
+Lê Minh Thành bị tuyên phạt 36 tháng tù về tội mua bán trái phép chất ma túy, được quy định tại Điều 251 Bộ luật Hình sự. Khung hình phạt cơ bản cho tội này là từ 02 năm đến 07 năm tù (khoản 1 Điều 251 BLHS).
+--- Q4 [cross-kb] flat recall=0.00 judge=0 0.94s
+Không đủ thông tin.
+--- Q4 [cross-kb] graph recall=1.00 judge=2 2.35s
+Giang hồ 'Hoàng Nato' bị bắt về hành vi "tổ chức sử dụng trái phép chất ma túy". Hành vi này có thể bị phạt tù tối đa lên đến 20 năm hoặc tù chung thân theo Điều 255 Bộ luật Hình sự (BLHS) (khoản 4) [blhs-dieu-255].
+--- Q5 [cross-kb-multi-hop] flat recall=0.60 judge=1 1.50s
+Cái Quang Huy bị truy tố về tội vận chuyển trái phép chất ma túy với loại ma túy là MDMA. Với khối lượng MDMA hơn 9,6kg trong vụ này, khoản b) của điều luật tương ứng được áp dụng, và khung hình phạt là từ 20 năm tù, tù chung thân hoặc tử hình.
+--- Q5 [cross-kb-multi-hop] graph recall=1.00 judge=2 2.57s
+Cái Quang Huy bị truy tố về tội vận chuyển trái phép chất ma túy, cụ thể là MDMA. Với khối lượng MDMA là hơn 9,6kg, khoản áp dụng tương ứng là khoản 4 của Điều 250 Bộ luật Hình sự (BLHS), quy định về tội vận chuyển trái phép chất ma túy có khối lượng 100 gam trở lên. Khung hình phạt theo khoản này là từ 20 năm, tù chung thân hoặc tử hình. 
+
+Nguồn: [blhs-dieu-250], [news-100260917203001265].
+--- Q6 [aggregation] flat recall=0.00 judge=1 1.96s
+Cả ba vụ việc trong tin tức đều có liên quan đến ma túy MDMA. Cụ thể:
+
+1. Vụ việc của Đức liên quan đến số viên nén hình tam giác màu hồng - xám được xác định là MDMA.
+2. Vụ việc của Thành liên quan đến 5 viên nén màu trắng được xác định là ma túy MDMA.
+3. Vụ việc của Đông liên quan đến 0,686g ma túy MDMA được thu giữ trong buồng chữa bệnh.
+
+Tất cả đều có liên quan đến ma túy MDMA.
+--- Q6 [aggregation] graph recall=1.00 judge=2 3.85s
+Các vụ việc trong tin tức có liên quan đến ma túy MDMA bao gồm:
+
+1. **Vụ án vận chuyển trái phép chất ma túy**: Cái Quang Huy bị cáo buộc vận chuyển hơn 9,6kg MDMA và gần 406g Ketamine. Huy hiện đang bỏ trốn và bị truy nã. (doc_id: news-100260917203001265)
+
+2. **Bệnh nhân ‘tâm thần’ kể cuộc chơi ma túy trên bãi biển cùng điều dưỡng Viện Pháp y tâm thần**: Tại đây, công an thu giữ 0,686g ma túy MDMA cùng nhiều dụng cụ sử dụng ma túy khác. (doc_id: news-100260924105118645, news-100260930085028036)
+
+3. **Góp 14 triệu đồng mua ma túy rồi nói đã ‘rút lui’, 3 thanh niên kháng cáo kêu oan**: Ba thanh niên thừa nhận đã góp tiền để Lê Minh Thành mua ma túy, trong đó có 5 viên nén màu trắng được xác định là MDMA. (doc_id: news-100260918080821054)

@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "nodes": 282,
+    "relationships": 519
+  },
+  "B1_B3": [
+    {
+      "person": "Nguyễn Hữu Đức",
+      "charge": "vận chuyển trái phép chất ma túy",
+      "status": "withdrawn",
+      "evidence": "Do không đủ căn cứ chứng minh Đức đồng phạm với Huy về hành vi vận chuyển trái phép chất ma túy, ngày 13-4-2026, Viện Kiểm sát nhân dân TP Hà Nội đã hủy quyết định khởi tố bị can đối với Đức.",
+      "doc_id": "news-100260917203001265"
+    },
+    {
+      "person": "Nguyễn Văn Quang",
+      "charge": "nhận hối lộ",
+      "status": "prosecuted",
+      "evidence": "Điều dưỡng Nguyễn Văn Quang bị truy tố cả tội nhận hối lộ và đánh bạc, do nhiều lần cá độ bóng đá quốc tế với số tiền giao dịch lên tới 10 triệu đồng mỗi trận.",
+      "doc_id": "news-100260924105118645"
+    },
+    {
+      "person": "Nguyễn Văn Quang",
+      "charge": "đánh bạc",
+      "status": "prosecuted",
+      "evidence": "Điều dưỡng Nguyễn Văn Quang bị truy tố cả tội nhận hối lộ và đánh bạc, do nhiều lần cá độ bóng đá quốc tế với số tiền giao dịch lên tới 10 triệu đồng mỗi trận.",
+      "doc_id": "news-100260924105118645"
+    }
+  ],
+  "Q6_facts": [
+    "[news-100260917203001265] Vụ: Vụ án vận chuyển trái phép chất ma túy; người: Cái Quang Huy, Nguyễn Hữu Đức, Nguyễn Tiến Đạt; MDMA: 9,6kg; Cái Quang Huy bị cáo buộc hai lần vận chuyển ma túy về Việt Nam qua sân bay Nội Bài. Huy hiện đang bỏ trốn và bị truy nã.; bằng chứng: Huy đang bỏ trốn vẫn phải chịu trách nhiệm hình sự tổng số ma túy gồm hơn 9,6kg MDMA và gần 406g Ketamine. […] Tổng khối lượng ma túy Huy phải chịu trách nhiệm hình sự là hơn 9,6kg ma túy MDMA và khoảng 406g Ketamine.",
+    "[news-100260924105118645, news-100260930085028036] Vụ: Bệnh nhân ‘tâm thần’ kể cuộc chơi ma túy trên bãi biển cùng điều dưỡng Viện Pháp y tâm thần / Cách bà ‘trùm’ thao túng 39 bác sĩ, điều dưỡng, biến Viện Pháp y tâm thần thành ‘chốn trú ẩn’ của tội phạm; người: Bùi Thị Thanh Thủy, Cao Thị Bích Hằng, Lê Văn Đông, Nguyễn Thị Mai Anh, Nguyễn Văn Quang, Ngô Việt Dũng, Trần Quốc An, Trần Văn Trường; MDMA: 0,686g ; MDMA: khối lượng chưa rõ; Lê Văn Đông, trong thời gian chữa bệnh bắt buộc tại Viện Pháp y tâm thần Trung ương, đã trốn viện để tổ chức sử dụng ma túy trên bãi biển Sầm Sơn cùng một số người khác. Nhiều bị cáo là tội phạm ma túy, lừa đảo bỏ hàng trăm triệu đến hàng tỉ đồng “chạy” giám định tâm thần để được vào chữa bệnh bắt buộc.; bằng chứng: Theo cáo trạng, tại đây công an thu 0,686g ma túy MDMA, ba bộ tẩu tự tạo đều dính methamphetamine cùng một số thiết bị âm thanh, dụng cụ sử dụng ma túy. Khi khám xét phòng của vợ chồng Mai Anh trong viện, công an tiếp tục thu giữ MDMA, ketamine, methamphetamine, cần sa và các dụng cụ sử dụng ma túy.",
+    "[news-100260918080821054] Vụ: Góp 14 triệu đồng mua ma túy rồi nói đã ‘rút lui’, 3 thanh niên kháng cáo kêu oan; người: Kim Xuân Tuấn, Lê Minh Thành, Nguyễn Quang Hưng, Trịnh Vũ Kiên; MDMA: 5 viên nén màu trắng; Ba thanh niên thừa nhận đã góp tiền để Lê Minh Thành mua ma túy dùng trong tiệc sinh nhật nhưng cho rằng sau đó họ không tiếp tục tham gia.; bằng chứng: Cơ quan công an thu giữ một hộp vuông màu xanh chứa 5 viên nén màu trắng."
+  ],
+  "Q6_group_count": 3,
+  "acceptance": "passed"
+}

@@ -1,0 +1,258 @@
+{
+  "stats": {
+    "nodes": 282,
+    "relationships": 514
+  },
+  "questions": {
+    "B1": {
+      "cypher": "\nMATCH (p:Person)-[:HAS_CHARGE]->(ch:Charge)<-[:HAS_CHARGE]-(k:Case)\nWHERE p.name IN $names\nOPTIONAL MATCH (ch)-[:OF_CRIME]->(c:Crime)\nOPTIONAL MATCH (ch)-[:HAS_SENTENCE]->(s:Sentence)\nRETURN p.name AS person, k.doc_id AS doc_id, k.id AS case_id,\n       ch.raw_charge AS raw_charge, c.name AS crime, ch.status AS status,\n       ch.stage AS charge_stage, ch.event_date AS event_date, ch.evidence_text AS evidence_text,\n       s.raw_text AS sentence, s.stage AS sentence_stage, s.duration_months AS months,\n       s.scope AS scope, s.evidence_text AS sentence_evidence\nORDER BY person, doc_id, ch.id, s.id\n",
+      "params": {
+        "names": [
+          "Nguyễn Văn Quang"
+        ]
+      },
+      "rows": [
+        {
+          "person": "Nguyễn Văn Quang",
+          "doc_id": "news-100260924105118645",
+          "case_id": "case:b8e0e153b69e763a2e175c81",
+          "raw_charge": "Nhận hối lộ và đánh bạc",
+          "crime": null,
+          "status": "prosecuted",
+          "charge_stage": "prosecution",
+          "event_date": "",
+          "evidence_text": "Điều dưỡng Nguyễn Văn Quang bị truy tố cả tội nhận hối lộ và đánh bạc, do nhiều lần cá độ bóng đá quốc tế với số tiền giao dịch lên tới 10 triệu đồng mỗi trận.",
+          "sentence": null,
+          "sentence_stage": null,
+          "months": null,
+          "scope": null,
+          "sentence_evidence": null
+        }
+      ]
+    },
+    "B2": {
+      "cypher": "\nMATCH (p:Person)-[:HAS_CHARGE]->(ch:Charge)<-[:HAS_CHARGE]-(k:Case)\nWHERE p.name IN $names\nOPTIONAL MATCH (ch)-[:OF_CRIME]->(c:Crime)\nOPTIONAL MATCH (ch)-[:HAS_SENTENCE]->(s:Sentence)\nRETURN p.name AS person, k.doc_id AS doc_id, k.id AS case_id,\n       ch.raw_charge AS raw_charge, c.name AS crime, ch.status AS status,\n       ch.stage AS charge_stage, ch.event_date AS event_date, ch.evidence_text AS evidence_text,\n       s.raw_text AS sentence, s.stage AS sentence_stage, s.duration_months AS months,\n       s.scope AS scope, s.evidence_text AS sentence_evidence\nORDER BY person, doc_id, ch.id, s.id\n",
+      "params": {
+        "names": [
+          "Trịnh Vũ Kiên"
+        ]
+      },
+      "rows": [
+        {
+          "person": "Trịnh Vũ Kiên",
+          "doc_id": "news-100260918080821054",
+          "case_id": "case:b55b08f76fb235f1afa659d2",
+          "raw_charge": "mua bán trái phép chất ma túy",
+          "crime": "mua bán trái phép chất ma túy",
+          "status": "convicted",
+          "charge_stage": "first_instance",
+          "event_date": "",
+          "evidence_text": "Các bị cáo Kiên, Tuấn và Hưng mỗi người 24 tháng tù về tội mua bán trái phép chất ma túy.",
+          "sentence": "24 tháng tù",
+          "sentence_stage": "first_instance",
+          "months": 24,
+          "scope": "per_charge",
+          "sentence_evidence": "Các bị cáo Kiên, Tuấn và Hưng mỗi người 24 tháng tù về tội mua bán trái phép chất ma túy."
+        }
+      ]
+    },
+    "B3": {
+      "cypher": "\nMATCH (p:Person)-[:HAS_CHARGE]->(ch:Charge)<-[:HAS_CHARGE]-(k:Case)\nWHERE p.name IN $names\nOPTIONAL MATCH (ch)-[:OF_CRIME]->(c:Crime)\nOPTIONAL MATCH (ch)-[:HAS_SENTENCE]->(s:Sentence)\nRETURN p.name AS person, k.doc_id AS doc_id, k.id AS case_id,\n       ch.raw_charge AS raw_charge, c.name AS crime, ch.status AS status,\n       ch.stage AS charge_stage, ch.event_date AS event_date, ch.evidence_text AS evidence_text,\n       s.raw_text AS sentence, s.stage AS sentence_stage, s.duration_months AS months,\n       s.scope AS scope, s.evidence_text AS sentence_evidence\nORDER BY person, doc_id, ch.id, s.id\n",
+      "params": {
+        "names": [
+          "Nguyễn Hữu Đức"
+        ]
+      },
+      "rows": [
+        {
+          "person": "Nguyễn Hữu Đức",
+          "doc_id": "news-100260917203001265",
+          "case_id": "case:524edff39fef2c42889a902b",
+          "raw_charge": "vận chuyển trái phép chất ma túy",
+          "crime": "vận chuyển trái phép chất ma túy",
+          "status": "withdrawn",
+          "charge_stage": "unknown",
+          "event_date": "",
+          "evidence_text": "Do không đủ căn cứ chứng minh Đức đồng phạm với Huy về hành vi vận chuyển trái phép chất ma túy, ngày 13-4-2026, Viện Kiểm sát nhân dân TP Hà Nội đã hủy quyết định khởi tố bị can đối với Đức.",
+          "sentence": null,
+          "sentence_stage": null,
+          "months": null,
+          "scope": null,
+          "sentence_evidence": null
+        }
+      ]
+    },
+    "B4": {
+      "cypher": "\nMATCH (p:Person)-[:HAS_CHARGE]->(:Charge)-[:HAS_SENTENCE]->(s:Sentence)-[:IN_CASE]->(k:Case)\nWHERE s.penalty_type = 'imprisonment' AND s.duration_months >= 24 AND s.duration_months <= 36\nRETURN DISTINCT p.name AS person, k.doc_id AS doc_id, s.raw_text AS sentence,\n                s.duration_months AS months, s.stage AS stage, s.scope AS scope\nUNION\nMATCH (p:Person)-[:HAS_SENTENCE]->(s:Sentence)-[:IN_CASE]->(k:Case)\nWHERE s.penalty_type = 'imprisonment' AND s.duration_months >= 24 AND s.duration_months <= 36\nRETURN DISTINCT p.name AS person, k.doc_id AS doc_id, s.raw_text AS sentence,\n                s.duration_months AS months, s.stage AS stage, s.scope AS scope\n",
+      "rows": [
+        {
+          "person": "Đinh Đức Tuấn",
+          "doc_id": "news-100260928173914514",
+          "sentence": "2 năm 6 tháng tù",
+          "months": 30,
+          "stage": "first_instance",
+          "scope": "per_charge"
+        },
+        {
+          "person": "Trần Ngọc Thảo",
+          "doc_id": "news-100260928173914514",
+          "sentence": "2 năm 6 tháng tù",
+          "months": 30,
+          "stage": "first_instance",
+          "scope": "per_charge"
+        },
+        {
+          "person": "Lê Minh Thành",
+          "doc_id": "news-100260918080821054",
+          "sentence": "36 tháng tù",
+          "months": 36,
+          "stage": "first_instance",
+          "scope": "per_charge"
+        },
+        {
+          "person": "Trịnh Vũ Kiên",
+          "doc_id": "news-100260918080821054",
+          "sentence": "24 tháng tù",
+          "months": 24,
+          "stage": "first_instance",
+          "scope": "per_charge"
+        },
+        {
+          "person": "Kim Xuân Tuấn",
+          "doc_id": "news-100260918080821054",
+          "sentence": "24 tháng tù",
+          "months": 24,
+          "stage": "first_instance",
+          "scope": "per_charge"
+        },
+        {
+          "person": "Nguyễn Quang Hưng",
+          "doc_id": "news-100260918080821054",
+          "sentence": "24 tháng tù",
+          "months": 24,
+          "stage": "first_instance",
+          "scope": "per_charge"
+        }
+      ]
+    }
+  },
+  "corpus_sha256": {
+    "blhs-dieu-247": "1ebbf7ce5d1dd8defd340a8e9bfd8580452e10160f21c540bed4f4cd1d1b47e8",
+    "blhs-dieu-248": "d4cebd96047785b1bb76606b24440b001290ad904436ef413aa36cd577e551f6",
+    "blhs-dieu-249": "9aa34b500b45b3b072fe959894021fc8cb0034a61e0b022dbb3368d62bfc772b",
+    "blhs-dieu-250": "34b8537fa2b8d6fa552aba10918bc54b82289a0f07b6d52a3c3d48a5b25b7432",
+    "blhs-dieu-251": "fc23672b3df9a08851063d45a5d3524e89c4912dc37101934595a10a53f61689",
+    "blhs-dieu-252": "afb6ff94b84ccd3362d56e43165beb9c2ae3a768372f44cf0e2a653ecda084de",
+    "blhs-dieu-253": "ebda2bf2ff9a34fac348bce5d7b5b5e8e7f070cff3805430bb8aa238041e007b",
+    "blhs-dieu-254": "360226ca35b271c885a3b7f97bda3e632a56fba6d7517444519716527cc79287",
+    "blhs-dieu-255": "9c289ef78d00fb1ed4fd0a1812ed58ba20dbb258d5c2fe1b94efefd5d46e6aad",
+    "blhs-dieu-256": "1ee6412f0edf95ab554e57480bd0b4be4f51ec628195e9f429c824b57e76a695",
+    "blhs-dieu-257": "724a621d71429e894f5157af0b25486c4278f21950c9e713f1add14af0f1f89f",
+    "blhs-dieu-258": "e4b97cb0747735492cb0d242b619826bbb63713bfece8f75b84da24280c58478",
+    "blhs-dieu-259": "f8a1c2adcaec252c0780a3c78cfae6bfeef4463525a3b8fe489959f8d3d821cf",
+    "pcmt-dieu-1": "30d8e1e1b02aa69b2bcf3f5bf619f1d324e447042c5830f2ae536badbd0d901c",
+    "pcmt-dieu-2": "a833aa45c75c526458d92d9259e89cbfdecc27e360c6252a652fc82a361bf004",
+    "pcmt-dieu-3": "181263a2eae39476e95cca78f69762fbd5ab2c633caefd6044bb9db9dfb80e2a",
+    "pcmt-dieu-4": "6561073ed01cdc3cbc1305eaa15055afb917ce86fe12839b8668dc2b15e1385b",
+    "pcmt-dieu-5": "0531e355a22520a544b1f378c0e6ff2ae557e1ed5d73ee1b12a6a8e22b38674a",
+    "news-100260916224844654": "0e32f7969e20138eb3826397f5d53ea918baa99b381a104fe552b6166703875c",
+    "news-100260917203001265": "cd15e1d494587bddf1315aaa1b2c2bb92ec13d1c0bebf97b1c663961793417f3",
+    "news-100260918080821054": "361619ace7356685617712d7f33b69088efd89df6a68605e54c28f2ebf72b0f2",
+    "news-100260918220613301": "14fc4858b40f8b15c781177a523db68751d034c8ce5c6e854334d2a2527c2751",
+    "news-100260920221957595": "fab6f137e65d959c2c00d9a904eee39dc3282bb5175fb052d24c75387f0da21a",
+    "news-100260922111804786": "6e246c8708d92269f6f61d2b5056a5de37d1aca14b9ad382f8305a648bd14ac0",
+    "news-100260924095400982": "1b61690aa761078c332fc950eaac37d150079314eff3379a70994cd844a65452",
+    "news-100260924101703641": "1867d79a7ff2071bb3d27138dfab9b34fa4a8842304827658a6f73aff71b342e",
+    "news-100260924105118645": "2b9b4bfd60676f5406fd6ab03f3a5d19e77237cff2d9684a4e7b17910a6ac097",
+    "news-100260924145818945": "4440eee1dae55e0408cd6be142d85e2254a5ea5cf9cb650f6b750c3db032ef95",
+    "news-100260924184319083": "1b19c9c3b2e840479c402cc6ea834d7423a3a2267fe07a0fd0d7be9e2d256d3a",
+    "news-100260925144412498": "ba7b9459c131517d59f19537e4492a0aba7e78eafa88caab0d1762f6b962929c",
+    "news-100260926112415229": "83698f065313a776dd53dc7f888d63093068a662d66e4711ad39ec4a0c6156a7",
+    "news-100260927182621527": "2f1c8185907ff574dbe1d4d90a444f6f4facf3ddd68b5d20e4bffe7df921e180",
+    "news-100260928003224009": "1f1ba321502e896c468a9dc15b2ca983ad7530a9375553703d7137a451357958",
+    "news-100260928111813276": "a10031d25c7abb1684259c810d0da77819a93398a91ad8ea8611a859410188af",
+    "news-100260928173914514": "db761afdf671b5cf022c91272c86ee0103dfcffa9ce6aab1071f8f055809d048",
+    "news-100260929130300513": "b6ed6836255f4de0c24e67b25ef7cc863a7ee1d84b983bebcc098d4992c350f2",
+    "news-100260930085028036": "b4f117e930c0b32b88d8b7f82816555c7e396ff4d55b40837b2e8a76b419799d",
+    "news-100261002184934505": "0a2fd711abdde27ba3797c6d935cbc67dfe4308b25dccdc2964104a5b9b8dbee"
+  },
+  "labels": [
+    {
+      "labels": [
+        "Charge"
+      ]
+    },
+    {
+      "labels": [
+        "Sentence"
+      ]
+    },
+    {
+      "labels": [
+        "Case"
+      ]
+    },
+    {
+      "labels": [
+        "Person"
+      ]
+    },
+    {
+      "labels": [
+        "Location"
+      ]
+    },
+    {
+      "labels": [
+        "Clause"
+      ]
+    },
+    {
+      "labels": [
+        "Substance"
+      ]
+    },
+    {
+      "labels": [
+        "Article"
+      ]
+    },
+    {
+      "labels": [
+        "Crime"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "type": "INVOLVES"
+    },
+    {
+      "type": "INVOLVED_IN"
+    },
+    {
+      "type": "HAS_CHARGE"
+    },
+    {
+      "type": "OF_CRIME"
+    },
+    {
+      "type": "HAS_SENTENCE"
+    },
+    {
+      "type": "IN_CASE"
+    },
+    {
+      "type": "LOCATED_IN"
+    },
+    {
+      "type": "DEFINES"
+    },
+    {
+      "type": "HAS_CLAUSE"
+    },
+    {
+      "type": "MENTIONS"
+    }
+  ]
+}
